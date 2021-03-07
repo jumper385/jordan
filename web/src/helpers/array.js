@@ -3,3 +3,8 @@ export const zip = (a, b) => {
         [element, b[index]]
     })
 }
+
+export const randomElement = (array) => {
+    let index = Math.floor(Math.random()*array.length)
+    return array[index]
+}
